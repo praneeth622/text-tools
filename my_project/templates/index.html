@@ -45,7 +45,7 @@
         </div>
         <!-- form -->
         
-            <div class="container">
+            <div class="container" style="padding-bottom: 270px;">
               <form action='http://127.0.0.1:8000/analyze/' method='post'> {% csrf_token %}
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" name="text" class="form-label">Enter Text</label>
@@ -70,6 +70,10 @@
                 <button type="submit" class="btn btn-primary mt-2">Analyze</button>
                 </form>
             </div>
+          <!-- footer -->
+      <footer style="background-color: rgb(45 50 48 / 94%); text-align: center; padding: 5px; margin-top: auto;">
+        <i class="fa-regular fa-copyright" style="color: aliceblue;"></i> <i style="color: aliceblue;">Praneeth Devarasetty</i>
+      </footer>
         
      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
