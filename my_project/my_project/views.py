@@ -4,15 +4,6 @@ from django.template import loader
 from django.shortcuts import render
 
 
-def main(request):
-    number = random.randint(0,255)# Api called in python
-    name ="Praneeth"
-    html = f"<h1>Hello {name} {number}</h1>"
-    return HttpResponse(html)
-
-def index(request):
-    f =open('file.txt')
-    return HttpResponse(f)
 
 def link(request):
     
